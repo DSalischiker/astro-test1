@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Vue Test</h1>
+    <h2>This is a Vue component.</h2>
   </div>
 </template>
 
@@ -10,8 +10,8 @@ export default {
 }
 </script>
 
-<style>
-h1 {
+<style scoped>
+h2 {
   background-image: var(--accent-gradient-green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
